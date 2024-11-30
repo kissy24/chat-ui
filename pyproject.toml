@@ -1,0 +1,11 @@
+[project]
+name = "gemini-discord"
+version = "0.1.0"
+description = "Feel free to use Gemini's free slots on discord to use the generated AI."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "discord>=2.3.2",
+    "google-generativeai>=0.8.3",
+    "python-dotenv>=1.0.1",
+]
